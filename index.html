@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tanim Elevator Company</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      color: #333;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      animation: slideDown 2s ease-out;
+    }
+
+    @keyframes slideDown {
+      from { transform: translateY(-100px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .elevator-images img {
+      width: 250px;
+      height: auto;
+      margin: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .elevator-images img:hover {
+      transform: scale(1.05);
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      padding: 12px 25px;
+      margin: 10px;
+      border-radius: 30px;
+      color: white;
+      background-color: #0066cc;
+      font-size: 18px;
+      display: inline-block;
+      transition: background-color 0.3s;
+    }
+
+    .buttons a:hover {
+      background-color: #004c99;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Tanim Elevator Company</h1>
+    <p>Your safety, our priority!</p>
+  </header>
+
+  <section>
+    <h2>Explore Our Elevators</h2>
+    <div class="elevator-images">
+      <img src="https://i.ibb.co/nwczR7j/lift1.jpg" alt="Elevator 1">
+      <img src="https://i.ibb.co/MnWRwCF/lift2.jpg" alt="Elevator 2">
+      <img src="https://i.ibb.co/NZ0ZyWD/lift3.jpg" alt="Elevator 3">
+    </div>
+
+    <div class="buttons">
+      <a href="https://www.facebook.com/share/12LEYa8qW6y/" target="_blank">📘 Facebook</a>
+      <a href="mailto:yatanandabari@gmail.com">✉️ Email Us</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tanim Elevator Co. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
